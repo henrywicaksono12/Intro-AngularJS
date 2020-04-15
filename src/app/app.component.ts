@@ -21,4 +21,10 @@ export class AppComponent  {
   show: boolean = false;
 
   user = "";
+
+  pesan = "";
+
+  klikButton(){
+    this.pesan = 'Tombol ditekan';
+  }
 }
